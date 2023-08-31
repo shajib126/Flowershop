@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    
+    background: rgba(229, 84, 115, 0.10);
+}
+.header_container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+}
+.header__left{
+    width: 40%;
+    margin-top: 10%;
+}
+.header__left button{
+    border-radius: 8px;
+    background: #E55473;
+    padding:0.8rem 1rem;
+    border: none;
+    color: white;
+}
+.header__right img{
+    height: 500px;
+}
+
+/* featured flower */
+.featured_flower{
+    width: 70%;
+    margin: auto;
+    margin-top: 4rem;
+    
+}
+.featured_flower {
+    text-align: center;
+}
+.featured__content{
+    display: flex;
+    justify-content: space-between;
+}
+.feutured__card{
+    width: 26%;
+}
+.feutured__card a{
+ font-weight: bold;
+ color: black;   
+}
+.featured__card_image1{
+    
+    border-radius: 300px 300px 0px 0px;
+    padding: 1rem;
+    height: 400px;
+    width: 100%;
+    margin-top: 4rem;
+    background: rgba(167, 33, 98, 0.15)
+    
+}
+.featured__card_image2{
+    
+    border-radius: 300px 300px 0px 0px;
+    padding: 1rem;
+    height: 400px;
+    width: 100%;
+    margin-top: 4rem;
+    background: rgba(5, 151, 160, 0.15);
+    
+}
+.featured__card_image3{
+    
+    border-radius: 300px 300px 0px 0px;
+    padding: 1rem;
+    height: 400px;
+    width: 100%;
+    margin-top: 4rem;
+    background: rgba(71, 125, 17, 0.15);
+
+    
+}
+.featured__card_image1 img{
+    height: 100%;
+    width: 90%;
+    object-fit: contain;
+}
+
+.featured__card_image2 img{
+    height: 100%;
+    width: 90%;
+    object-fit: contain;
+}
+
+.featured__card_image3 img{
+    height: 100%;
+    width: 90%;
+    object-fit: contain;
+}
+
+
+/* services */
+.services{
+    width: 100%;
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    
+}
+.service__container{
+    display: flex;
+    width: 60%;
+    margin: 8rem auto;
+    padding: 2rem;
+    justify-content: space-between;
+    
+    
+ 
+
+}
+
+/* hot deals */
+.hot-deals{
+    width: 100%;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-deals__container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hot-deals__container-left{
+    width: 40%;
+    margin-top: 10%;
+}
+.hot-deals__container-left button{
+    border: none;
+    padding: 0.8rem;
+    border-radius: 8px;
+background: #E55473;
+color: white;
+display: flex;
+margin-left: 40%;
+
+}
+
+/* instagram */
+.instagram{
+
+    
+    margin-top: 4rem;
+    text-align: center;
+}
+.instagram p{
+    width: 30%;
+    margin:2rem auto;
+
+}
+.images{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.images img{
+    width: 24%;
+}
+
+/* customer-review */
+.customer-review{
+    
+    margin-top: 4rem;
+}
+.customer-review h1{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-weight: bold;
+}
+.customer-review__container{
+    display: flex;
+    width: 80%;
+    margin:  auto;
+    justify-content: space-between;
+    
+}
+.customer-review__card1{
+    width: 25%;
+    box-shadow: 1px 2px 3px 2px;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.customer-review__card2{
+    width: 25%;
+    box-shadow: 1px 2px 3px 2px;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.customer-review__card3{
+    width: 25%;
+    box-shadow: 1px 2px 3px 2px;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.customer-review__card1 img{
+    width: 25%;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 40%;
+    border: 2px solid salmon;
+    box-shadow: 1px 2px 4px 2px;
+}
+.customer-review__card2 img{
+    width: 25%;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 40%;
+    border: 2px solid salmon;
+    box-shadow: 1px 2px 4px 2px;
+}
+.customer-review__card3 img{
+    width: 25%;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 40%;
+    border: 2px solid salmon;
+    box-shadow: 1px 2px 4px 2px;
+}
+
+/* subscribe */
+.subscribe{
+    width: 70%;
+    margin: 8rem auto ;
+    background-image: url('./Flower\ Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    object-fit: contain;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.subscribe__container h1,p{
+    text-align: center;
+}
+.subscribe__container{
+    width: 60%;
+    margin: 3rem auto;
+}
+
+.input-form{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.input-form input{
+    border: none;
+    padding: 1rem;
+    width: 75%;
+    border-radius: 0.4rem;
+}
+.input-form button{
+    border: none;
+    border-radius: 8px;
+background: #E55473;
+color: white;
+padding: 0 1rem;
+cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    padding: 4rem;
+    color: white;
+}
+footer h1{
+    text-align: center;
+}
+.flower{
+    color: #E55473;
+}
+.red{
+    color: red;
+}
